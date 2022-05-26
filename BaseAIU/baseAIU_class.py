@@ -118,7 +118,7 @@ class FrBaseAIU(Frame):
         self.lblUtil = Label(self,text="Utilidad: ",font=("Arial",12))
         self.txtUtil=Entry(self,bg="pink", font=("Arial",12), justify="center")
         
-        self.lblIva = Label(self,text="Iva: ",font=("Arial",12))
+        self.lblIva = Label(self,text="Iva / Utilidad: ",font=("Arial",12))
         self.txtIva=Entry(self,bg="pink", font=("Arial",12), justify="center")
         
         self.btn1=Button(self,text="Calcular", font=("Arial",12), command=self.fBaseAIU)
